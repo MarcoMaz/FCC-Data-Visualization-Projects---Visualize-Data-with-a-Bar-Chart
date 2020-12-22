@@ -3,7 +3,7 @@
   "homepage": "https://marcomaz.github.io/FCC-Data-Visualization-Projects---Visualize-Data-with-a-Bar-Chart/",
   "version": "1.0.0",
   "description": "Boilerplate for FCC's challenges with d3",
-  "main": "index.html",
+  "main": "index.js",
   "author": "Marco Mazzai",
   "license": "MIT",
   "scripts": {
