@@ -1,3 +1,42 @@
-svg {
-  background-color: AliceBlue;
+$black: #031926;
+$sea: #468189;
+$green: #77ACA2;
+$opal: #9DBEBB;
+$champagne: #F4E9CD;
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: $champagne;
+  color: $black;
+  display: flex;
+  font-family: Arial;
+  justify-content: center;
+}
+
+#title {
+  font-size: 30px;
+  text-align: center;
+}
+
+#tooltip {
+  background-color: $sea;
+  border-radius: 5px;
+  color: $champagne;
+  display: none;
+  font-size: 16px;
+  opacity: 0.8;
+  padding: 15px;  
+  pointer-events: none;
+  position: absolute;  
+  text-align: center;
+}
+
+.bar:hover {
+  fill: $opal;
 }
