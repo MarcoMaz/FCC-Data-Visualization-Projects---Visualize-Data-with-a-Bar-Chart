@@ -1,9 +1,3 @@
-$black: #031926;
-$sea: #468189;
-$green: #77ACA2;
-$opal: #9DBEBB;
-$champagne: #F4E9CD;
-
 html, body {
   height: 100%;
   margin: 0;
@@ -12,8 +6,8 @@ html, body {
 
 body {
   align-items: center;
-  background-color: $champagne;
-  color: $black;
+  background-color: #F4E9CD;
+  color: #031926;
   display: flex;
   font-family: Arial;
   justify-content: center;
@@ -25,9 +19,9 @@ body {
 }
 
 #tooltip {
-  background-color: $sea;
+  background-color: #468189;
   border-radius: 5px;
-  color: $champagne;
+  color: #F4E9CD;
   display: none;
   font-size: 16px;
   opacity: 0.8;
@@ -38,5 +32,5 @@ body {
 }
 
 .bar:hover {
-  fill: $opal;
+  fill: #9DBEBB;
 }
