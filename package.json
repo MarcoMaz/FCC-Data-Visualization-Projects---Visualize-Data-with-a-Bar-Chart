@@ -1,5 +1,6 @@
 {
   "name": "boilerplate-fcc-challenge-d3",
+  "homepage": "https://marcomaz.github.io/FCC-Data-Visualization-Projects---Visualize-Data-with-a-Bar-Chart/",
   "version": "1.0.0",
   "description": "Boilerplate for FCC's challenges with d3",
   "main": "index.js",
@@ -28,6 +29,7 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "d3": "^6.3.1"
+    "d3": "^6.3.1",
+    "gh-pages": "^3.1.0"
   }
 }
