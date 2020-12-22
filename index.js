@@ -1,6 +1,3 @@
-import './main.scss';
-import * as d3 from "d3";
-
 const data = 'https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json'
 
 const width = 800
