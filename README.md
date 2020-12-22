@@ -1,2 +1,0 @@
-
-# fcc-challenge-boilerplate
